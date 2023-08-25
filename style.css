@@ -25,7 +25,7 @@ body {
 /* Estilos para a classe do logotipo */
 .logo {
     max-width: 400px;
-  
+  margin-top: 100px;
     z-index: 2;
 }
 
@@ -72,7 +72,7 @@ body {
     text-align: center;
     z-index: 1;
     padding: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 /* Estilos para o título da senha gerada */
@@ -111,14 +111,29 @@ body {
 /* Estilos para o footer */
 .footer {
   
-    bottom: 40px;
-    left: 650px;
+    bottom: 20px;
+    left: 600px;
     height: 40px;
     position: fixed;
     width: 100%;
    
     display: block;
   }
+  
+
+/* Estilos para os ícones de redes sociais */
+.footer a {
+    margin: 0 10px; /* Espaço horizontal entre os ícones */
+    color: #007bff; /* Cor dos ícones */
+    font-size: 24px; /* Tamanho dos ícones */
+    text-decoration: none; /* Remove sublinhado nos links */
+}
+
+
+.footer a:hover {
+    color: #4caf50; /* Cor ao passar o mouse sobre os ícones */
+}
+
 
 /* Adaptações para dispositivos móveis */
 @media screen and (max-width: 600px) {
