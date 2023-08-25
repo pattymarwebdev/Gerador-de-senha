@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Gerador de senhas, gerador password">
+    
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Projeto Gerador de Senha</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo" src="./images/logo.png" alt="Gerador de senha logo" />
+
+        <div class="container-input">
+            <span>Tamanho<span id="valor"></span> caracteres</span>
+            <input id="slider" class="slider" type="range" min="5" max="25" value="15" />
+            <button id="button" class="button-cta">Gerar Senha</button>
+        </div>
+
+        <div id="container-password" class="container-password hide">
+            <span class="title">Sua senha gerada foi:</span>
+            <span id="password" class="password">12314546454874445454</span>
+            <span id="text-copiar" class="text-copiar"> Clique na senha para copiar.👆</span>
+        </div>
+    </div>
+    <footer class="footer">
+        
+            <a href="https://www.linkedin.com/in/patriciamarciano" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/pattymayaoficial" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/patriciamarpaulino" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </footer>
+    
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais para o corpo */
+body {
+    font-family: sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para o contêiner geral */
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto 150px;
+}
+
+/* Estilos para a classe do logotipo */
+.logo {
+    max-width: 400px;
+  
+    z-index: 2;
+}
+
+/* Estilos para o contêiner dos inputs */
+.container-input {
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+/* Estilos para a descrição do tamanho da senha */
+.container-input span {
+    color: #fff;
+    font-size: 22px;
+}
+
+/* Estilos para o controle de deslize */
+.slider {
+    width: 100%;
+    border-radius: 5px;
+    background: #dfdfdf;
+}
+
+/* Estilos para o botão de ação */
+.button-cta {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button-cta:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o campo de senha gerada */
+.container-password {
+    text-align: center;
+    z-index: 1;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o título da senha gerada */
+.title {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.text-copiar {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a senha gerada */
+.password {
+    font-size: 24px;
+    background-color: #dfdfdf;
+    padding: 10px 15px;
+    border-radius: 5px;
+    user-select: all;
+    cursor: pointer;
+}
+
+.password:hover {
+    background-color: #d1d1d1;
+}
+
+/* Ícone de clique para copiar */
+.password:after {
+    content: '👆';
+    margin-left: 5px;
+}
+
+  
+/* Estilos para o footer */
+.footer {
+  
+    bottom: 40px;
+    left: 650px;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+   
+    display: block;
+  }
+
+/* Adaptações para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    .logo {
+        max-width: 80%; /* Reduzindo o tamanho da logo em telas pequenas */
+    }
+
+    .container-input {
+        width: 90%; /* Reduzindo a largura do contêiner de entrada em telas pequenas */
+        max-width: none; /* Removendo a largura máxima */
+    }
+}
